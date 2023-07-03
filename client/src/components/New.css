@@ -1,0 +1,61 @@
+.Fetch{
+    width: 100wh;
+    height: 100vh;
+    margin: 20px;
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.products_single{
+ margin: 15px 0;
+   
+   
+}
+
+.products_single > img{
+    height: 100%;
+    width: 95%;
+   object-fit: cover;
+   margin-bottom: 1px;
+}
+
+.carts{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 128px;
+}
+
+.card{
+    margin: 1rem;
+    padding: 20px;
+    size: 30px;
+    align-items: center;
+}
+
+.cart .card img{
+    width: 120px;
+    height: 120px;
+}
+
+.cart .card p{
+    display: flex;
+    flex-direction: row;
+    
+}
+.cart .card .quantity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}

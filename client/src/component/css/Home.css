@@ -1,0 +1,14 @@
+.screen{
+    display: grid;
+    place-content: center;
+
+}
+
+/* .short_screen{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    margin-top: 10rem;
+    color: rgb(42, 56, 165);
+} */

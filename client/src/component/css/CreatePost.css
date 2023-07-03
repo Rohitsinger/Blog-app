@@ -1,0 +1,14 @@
+col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.nav_fill{
+    display: flex;
+    flex-direction: row;
+    margin-left: 17rem;
+}
+ .pic{
+  object-fit: cover;
+}

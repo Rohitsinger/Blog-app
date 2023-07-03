@@ -1,0 +1,67 @@
+.brand{
+    font-family: 'Grand Hotel', cursive;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.mycard{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+    margin-top: 40px;
+
+}
+
+
+.auth_card{
+    margin: 10px auto ;
+    padding: 60px;
+    text-align: center;
+    max-width: 400px;
+    /* background: aquamarine; */
+    object-fit: cover;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    max-width: 300px;
+    background: aquamarine;
+}
+
+@media screen and(width=600px) {
+    .mycard{
+        /* resize: both; */
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin-left: 70px;
+        margin-top: 200px;
+        min-width: 800px;
+        /* aspect-ratio: 1/2; */
+        overflow: hidden;
+        width: fit-content;
+    }
+    
+    
+    .auth_card{
+        margin: 10px auto ;
+        padding: 60px;
+        text-align: center;
+       
+      
+        /* background: aquamarine; */
+        object-fit: cover;
+    }
+    
+    .image{
+        display: flex;
+        flex-direction: column;
+        object-fit: cover;
+        max-width: 300px;
+        background: aquamarine;
+        aspect-ratio: 1/2;
+    }
+}
